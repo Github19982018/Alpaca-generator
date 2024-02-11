@@ -1,0 +1,172 @@
+:root {
+
+  
+  font-family: poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #3e3a3a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+}
+
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns-container1 {
+  display: flex;
+  margin: 5px 0;
+  gap:10px;
+}
+
+
+
+#accessories-btn-wrapper, #style-btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  gap: 10px;
+  margin-bottom: 10%;
+}
+
+
+
+.btn-primary {
+  border-radius: 20px;
+  border: 1px solid rgb(0, 174, 255);
+  padding: .5em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.btn-primary:hover {
+  border-color: #0c139d;
+  background-color: blue;
+}
+
+.btn-primary.active {
+  border-color: #0c139d;
+  background-color: blue;
+}
+
+.secondary-btn {
+   padding: 5px;
+}
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+    color: black;
+  }
+}
+
+
+
+/* image layers */
+.img-container {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.img-container img {
+  position: absolute;
+  top:0;
+  left:0; 
+  width: 400px;
+  height: 400px;
+  top:0;
+}
+
+/* #bg-image {
+  z-index: -1;
+}
+
+#ear-image  {
+  z-index: 5;
+}
+
+#earings-image  {
+  z-index: 10;
+}
+
+#headphone-image  {
+  z-index: 7;
+}
+
+#flower-image  {
+  z-index: 10;
+}
+
+#hair-image  {
+  z-index: 6;
+}
+
+#eyes-image {
+  z-index: 10;
+}
+
+#glasses-image {
+  z-index: 10;
+}
+
+#nose-image {
+  z-index: 10;
+}
+
+#mouth-image {
+  z-index: 10;
+}
+
+#neck-image {
+  z-index: 5;
+} */
+
+
+
+
