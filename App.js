@@ -1,3 +1,7 @@
+// Alternative implementation using oop concepts
+
+
+
 import './style.css'
 import mergeImages from 'merge-images';
 import { download, random } from './lib/utilities.js';
