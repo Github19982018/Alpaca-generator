@@ -1,4 +1,4 @@
 # Alpaca generator
 ## custom avatar maker
-Completed study project
-Also used oop methologies as different implementation method
+- Completed study project
+- 2 versions - with and without oop
